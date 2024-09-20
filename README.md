@@ -68,7 +68,7 @@ Header | Definition
 **Result:** 69 Avengers died at least one time!
 
 ### Question 2: Top 10 Avengers Who Died the Most
-![Death Distribution](path/to/death_distribution.png)
+![Death Distribution](charts/Number_of_Deaths_of_Avengers_Over_the_Years.png)
 
 ### Question 3: Did all characters die at some point? 
 **Result:** Not all characters have died
