@@ -4,18 +4,20 @@
 1. [Introduction](#introduction)
 2. [Questions](#questions)
 3. [Data Description](#data-description)
-4. [Analysis](#analysis)
+4. [Dataset Dictionary](#dataset-dictionary)
+5. [Analysis](#analysis)
    - [Question 1: How many Avengers have died at least once?](#question-1-how-many-avengers-have-died-at-least-once)
    - [Question 2: Top 10 Avengers Who Died the Most](#question-2-top-10-avengers-who-died-the-most)
    - [Question 3: Did all characters die at some point?](#question-3-did-all-characters-die-at-some-point)
-   - [Question 4: Is there a difference in mortality between characters of different genders?](#question-4-is-there-a-difference-in-mortality-between-characters-of-different-genders)
-   - [Question 5: What is the relationship between the number of appearances and deaths?](#question-5-what-is-the-relationship-between-the-number-of-appearances-and-deaths)
-   - [Question 6: Has mortality changed over the years?](#question-6-has-mortality-changed-over-the-years)
-   - [Question 7: Are there Avengers who died multiple times and returned?](#question-7-are-there-avengers-who-died-multiple-times-and-returned)
-   - [Question 8: Which characters are currently active or inactive?](#question-8-which-characters-are-currently-active-or-inactive)
-   - [Question 9: Who are the characters with the most appearances who never died?](#question-9-who-are-the-characters-with-the-most-appearances-who-never-died)
-   - [Question 10: What is the average time since a character joined the Avengers?](#question-10-what-is-the-average-time-since-a-character-joined-the-avengers)
-5. [Conclusion](#conclusion)
+   - [Question 4: What is the distribution of deaths among Avengers?](#question-4-what-is-the-distribution-of-deaths-among-avengers)
+   - [Question 5: How many times did the Avengers return from death?](#question-5-how-many-times-did-the-avengers-return-from-death)
+   - [Question 6: Is there a difference in mortality between characters of different genders?](#question-6-is-there-a-difference-in-mortality-between-characters-of-different-genders)
+   - [Question 7: Has mortality changed over the years?](#question-7-has-mortality-changed-over-the-years)
+   - [Question 8: Are there Avengers who died multiple times and returned?](#question-8-are-there-avengers-who-died-multiple-times-and-returned)
+   - [Question 9: Which characters are currently active or inactive?](#question-9-which-characters-are-currently-active-or-inactive)
+   - [Question 10: Who are the top 10 characters with the most appearances who never died?](#question-10-who-are-the-top-10-characters-with-the-most-appearances-who-never-died)
+   - [Question 11: What is the average time (in years) since a character joined the Avengers?](#question-11-what-is-the-average-time-in-years-since-a-character-joined-the-avengers)
+6. [Conclusion](#conclusion)
 
 ## Introduction
 This project analyzes data on Avengers characters, exploring their deaths, returns, and other statistics.
@@ -68,15 +70,70 @@ Header | Definition
 **Result:** 69 Avengers died at least one time!
 
 ### Question 2: Top 10 Avengers Who Died the Most
-![Top 10 Avengers Who Died the Most](charts\Top_10_Avengers_Who_Died_the_Most.png)
+![Top 10 Avengers Who Died the Most](charts/Top_10_Avengers_Who_Died_the_Most.png)
 
 ### Question 3: Did all characters die at some point? 
 **Result:** Not all characters have died
 **Number of characters who have not died:** 104
-**Characters who never died:** [List here]
 
-### Question 4: What is the distribution of deaths among characters?
-![Death Distribution](path/to/death_distribution.png)
+**Characters Who Never Died:**
+
+| **Character Name** | **Character Name** |
+|-------------------------------|-------------------------------|
+| Richard Milhouse Jones         | Marc Spector                  |
+| Heracles                       | John F. Walker                |
+| T'Challa                       | Miguel Santos                 |
+| Dane Whitman                   | Julia Carpenter               |
+| Henry P. McCoy                 | Christopher Powell            |
+| Yondu Udonta                   | Reed Richards                 |
+| Martinex T'Naga                | Susan Richards (née Storm)    |
+| Charlie-27                     | Ashley Crawford               |
+| Nicholette Gold                | Val Ventura                   |
+| Stakar                         | Craig Hollis                  |
+| Vance Astrovik                 | Gene Lorrene                  |
+| Carol Susan Jane Danvers       | Dorreen Green                 |
+| Samuel Thomas Wilson           | Tippy-Toe                     |
+| Greer Grant Nelson             | Greg Willis                   |
+| Monica Rambeau                 | Circe                        |
+| Eros                           | Walter Newell                 |
+| James R. Rhodes                | Elvin Haliday                 |
+| Bonita Juarez                  | Crystal Amaquelin Maximoff    |
+| Melissa Darrow                 | Phillip Javert                |
+| Angelica Jones                 | Jessica Miriam Drew           |
+| Delroy Garrett Jr.             | Jessica Jones                 |
+| Maria de Guadalupe Santiago    | Amadeus Cho                   |
+| Kelsey Leigh Shorr             | Maria Hill                    |
+| Carl Lucas                     | Robbie Baldwin                |
+| Nathaniel Richards             | Brunnhilde                    |
+| Elijah Bradley                 | Brian Braddock                |
+| William "Billy" Kaplan         | Noh-Varr                      |
+| Theodore "Teddy" Altman         | John Aman                     |
+| Katherine "Kate" Bishop        | Shang-Chi                     |
+| Thomas "Tommy" Shepherd        | James Santini                 |
+| Doctor Stephen Vincent Strange | Emery Schaub                  |
+| James Buchanan Barnes          | Jeanne Foucault               |
+| Jennifer Takeda                | Fiona                         |
+| Yvette                         | Julie Power                   |
+| Alani Ryan                     | Johnny Gallo                  |
+| Lyra                           | Anya Corazon                  |
+| Brandon Sharpe                 | Kevin Masterson               |
+| Michiko Musashi                | Taki Matsuya                  |
+| Daisy Johnson                  | Ororo Munroe                  |
+| Matt Murdock                   | Flash Thompson                |
+| Alex Summers                   | Samuel Guthrie                |
+| Roberto da Costa               | Eden Fesi                     |
+| Captain Universe               | Izzy Kane                     |
+| Anna Marie                     | Sam Alexander                 |
+| America Chavez                 | Loki Laufeyson                |
+| David Alleyne                  | Nicholas Fury, Jr., Marcus Johnson |
+| Phillip Coulson                | Tony Masters                  |
+| Monica Chang                   | Doombot (Avenger)             |
+| Alexis                         | Eric Brooks                   |
+| Adam Brashear                  | Victor Alvarez                |
+| Ava Ayala                      | Kaluu                         |
+
+### Question 4: What is the distribution of deaths among avengers?
+![Death Distribution](charts/Distribution%20of%20Number%20of%20Deaths%20Among%20Avengers.png)
 
 ### Question 5: How many times did the Avengers return from death?
      - 0 returns: 127 characters
@@ -84,7 +141,7 @@ Header | Definition
      - 2 returns: 7 characters
      - 5 returns: 1 character
      
-![Gender Mortality Distribution](path/to/gender_mortality.png)
+![Gender Mortality Distribution](charts/Total%20Number%20of%20Deaths%20by%20Gender.png)
 
 ### Question 6: Is there a difference in mortality between characters of different genders?
 **Gender**
@@ -92,7 +149,7 @@ Header | Definition
 - Male: 127
 
 ### Question 7: Has mortality changed over the years?
-![Mortality Over the Years](path/to/mortality_over_years.png)
+![Mortality Over the Years](charts/Number%20of%20Deaths%20of%20Avengers%20Over%20the%20Years.png)
 
 ### Question 8: Are there Avengers who died multiple times and returned?
 **Result:** 
@@ -118,8 +175,101 @@ Header | Definition
 **Number of active avengers:** 82
 **Number of inactive avengers:** 91 
 
-**Active Characters:** [List here]
-**Inactive Characters:** [List here]
+### Active Characters
+
+| **Character Name**            | **Character Name**            |
+|-------------------------------|-------------------------------|
+| Henry Jonathan "Hank" Pym      | Jocasta                       |
+| Janet van Dyne                 | Greer Grant Nelson            |
+| Anthony Edward "Tony" Stark    | Jennifer Walters              |
+| Robert Bruce Banner            | Monica Rambeau                |
+| Thor Odinson                   | Reed Richards                 |
+| Richard Milhouse Jones         | Ashley Crawford               |
+| Steven Rogers                  | DeMarr Davis                  |
+| Clinton Francis Barton         | Val Ventura                   |
+| Pietro Maximoff                | Craig Hollis                  |
+| Wanda Maximoff                 | Peter Benjamin Parker         |
+| Heracles                       | Carl Lucas                    |
+| Victor Shade (alias)           | James "Logan" Howlett         |
+| Natalia Alianovna Romanova     | William "Billy" Kaplan        |
+| Simon Williams                 | Dorrek VIII/Theodore "Teddy" Altman |
+| Carol Susan Jane Danvers       | Katherine "Kate" Bishop       |
+| Samuel Thomas Wilson           | Thomas "Tommy" Shepherd       |
+| Jessica Miriam Drew            | Jessica Jones                 |
+| Maria Hill                     | Noh-Varr                      |
+| John Aman                      | Shang-Chi                     |
+| James Santini                  | Emery Schaub                  |
+| Jeanne Foucault                | Fiona                         |
+| Jennifer Takeda                | Yvette                        |
+| Julie Power                    | Alani Ryan                    |
+| Humberto Lopez                 | Johnny Gallo                  |
+| Lyra                           | Anya Corazon                  |
+| Brandon Sharpe                 | Kevin Masterson               |
+| Michiko Musashi                | Taki Matsuya                  |
+| Flash Thompson                 | Alex Summers                  |
+| Samuel Guthrie                 | Roberto da Costa              |
+| Eden Fesi                      | Captain Universe              |
+| Izzy Kane                      | Marcus Milton                 |
+| Anna Marie                     | Shiro Yoshida                 |
+| Ex Nihilo                      | Abyss (Ex Nihilo's)           |
+| Adam                           | Kevin Kale Connor             |
+| Sam Alexander                  | America Chavez                |
+| David Alleyne                  | Nicholas Fury, Jr. (Marcus Johnson) |
+| Phillip Coulson                | Victor Mancha                 |
+| Monica Chang                   | Doombot (Avenger)             |
+| Alexis                         | Eric Brooks                   |
+| Adam Brashear                  | Victor Alvarez                |
+| Ava Ayala                      | Kaluu                         |
+
+### Inactive Characters
+
+| **Character Name**            | **Character Name**            |
+|-------------------------------|-------------------------------|
+| Jacques Duquesne               | T'Challa                      |
+| Dane Whitman                   | Brandt                        |
+| Henry P. McCoy                 | Heather Douglas               |
+| Patsy Walker                   | Matthew Liebowitz (birth name)|
+| Robert L. Frank Sr.            | Yondu Udonta                  |
+| Martinex T'Naga                | Charlie-27                    |
+| Nicholette Gold                | Stakar                        |
+| Vance Astrovik                 | Mar-Vell                      |
+| Eros                           | James R. Rhodes               |
+| Barbara Barton (née Morse)      | Moira Brandon                 |
+| Benjamin Jacob Grimm           | Bonita Juarez                 |
+| Marc Spector                   | John F. Walker                |
+| Jim Hammond (alias)            | Miguel Santos                 |
+| Julia Carpenter                | X-51                          |
+| Christopher Powell             | Namor McKenzie                |
+| Scott Edward Harris Lang       | Anthony Ludgate Druid         |
+| Marrina Smallwood              | Ravonna Lexus Renslayer       |
+| Rita DeMara                    | Dennis Dunphy                 |
+| Gilgamesh                      | Susan Richards (née Storm)    |
+| Wendell Elvis Vaughn           | Dinah Soar                    |
+| Gene Lorrene                   | Dorreen Green                 |
+| Monkey Joe                    | Doug Taggert                  |
+| Tippy-Toe                      | Wade Wilson                   |
+| Greg Willis                    | Circe                         |
+| Walter Newell                  | Elvin Haliday                 |
+| William Baker                  | Crystal Amaquelin Maximoff    |
+| Eric Kevin Masterson           | Phillip Javert                |
+| Melissa Darrow                 | Deathcry                      |
+| Anthony Edward Stark           | Giulietta Nefaria             |
+| Angelica Jones                 | Delroy Garrett Jr.            |
+| Maria de Guadalupe Santiago    | Jonathan Hart                 |
+| Kelsey Leigh Shorr             | Veranke                       |
+| Robert Reynolds                | Maya Lopez                    |
+| Nathaniel Richards             | Elijah Bradley                |
+| Cassie Lang                    | Alias: Jonas                  |
+| Daniel Thomas Rand K'ai        | Doctor Stephen Vincent Strange|
+| Ares                           | James Buchanan Barnes         |
+| Amadeus Cho                    | Robbie Baldwin                |
+| Sharon Carter                  | Eric O'Grady                  |
+| Brunnhilde                     | Richard Rider                 |
+| Brian Braddock                 | Dennis Sykes                  |
+| Thaddeus Ross                  | Ken Mack                      |
+| Daisy Johnson                  | Ororo Munroe                  |
+| Matt Murdock                   | Otto Octavius                 |
+| Loki Laufeyson                 | Tony Masters                  |
 
 ### Question 10: Who are the top 10 characters with the most appearances who never died?
 **Result:**
@@ -140,7 +290,7 @@ Header | Definition
 
 
 ### Question 11: What is the average time (in years) since a character joined the Avengers?
-**Result:** The average time (in years) since a character joined the Avengers is: 26.55 years!
+**Result:** The average time (in years) since a character joined the Avengers is 26.55 years!
 
 ## Conclusion
 In this analysis, we explored various aspects of Avengers characters, providing insights into their mortality and activity status.
