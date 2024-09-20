@@ -293,5 +293,7 @@ Header | Definition
 **Result:** The average time (in years) since a character joined the Avengers is 26.55 years!
 
 ## Conclusion
-In this analysis, we explored various aspects of Avengers characters, providing insights into their mortality and activity status.
+We've uncovered some interesting (and sometimes alarming) insights about our favorite heroes. Turns out, being an Avenger might not be the best career move if you're looking for job security—unless you're into the whole "dying and coming back to life" thing. From mortality rates that rival the most dramatic soap operas to the ever-shifting roster of who's active or inactive, it's clear that being a superhero comes with its challenges.
+
+So, if you're thinking about joining Earth's Mightiest Heroes, maybe think twice. After all, the data doesn’t lie—staying alive is no small feat in this lineup!
 
