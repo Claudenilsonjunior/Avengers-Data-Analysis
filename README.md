@@ -124,17 +124,19 @@ Header | Definition
 ### Question 10: Who are the top 10 characters with the most appearances who never died?
 **Result:**
 
-Name | Appearances
-Reed Richards | 2125
-Henry P. McCoy | 1886
-Susan Richards (nee Storm) | 1761
-Ororo Munroe | 1598
-Matt Murdock | 1375
-Doctor Stephen Vincent Strange | 1324
-Carol Susan Jane Danvers | 935
-Carl Lucas | 886
-Anna Marie | 877
-T'Challa | 780
+| Name                                | Appearances |
+|-------------------------------------|-------------|
+| Reed Richards                       | 2125        |
+| Henry P. McCoy                     | 1886        |
+| Susan Richards (nee Storm)         | 1761        |
+| Ororo Munroe                       | 1598        |
+| Matt Murdock                       | 1375        |
+| Doctor Stephen Vincent Strange      | 1324        |
+| Carol Susan Jane Danvers           | 935         |
+| Carl Lucas                         | 886         |
+| Anna Marie                         | 877         |
+| T'Challa                           | 780         |
+
 
 
 ### Question 11: What is the average time (in years) since a character joined the Avengers?
